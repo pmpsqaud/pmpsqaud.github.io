@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(pexels-lumn-167699.jpg);
+    background-color: #192841;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 300px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #192841;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 15px;
+    float: left;
+    padding-top: 15px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #192841;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: bisque;
+}
+
+.search{
+    width: 270px;
+    float: right;
+    margin-left: 170px;
+}
+
+.srch{
+    font-family: 'Courier New', Courier, monospace;
+    width: 170px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #192841;
+    margin-top: 15px;
+    color: bisque;
+    border-right: none;
+    font-size: 16px;
+    float: right;
+    padding: 10px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.btn{
+    width: 90px;
+    height: 40px;
+    background: #192841;
+    border: 2px solid#192841;
+    margin-top: 15px;
+    color: bisque;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.btn:focus{
+    outline: none;
+
+}
+
+.srch:focus{
+    outline: none;
+}
